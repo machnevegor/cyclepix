@@ -11,3 +11,4 @@ wheels/
 
 # Project-specific
 data/
+checkpoints/
