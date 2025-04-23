@@ -1,6 +1,7 @@
 # XAI for CycleGAN: Visual Insights via Score-CAM
 
 **XAI Course Project | Egor Machnev & Apollinaria Chernikova**
+
 Link to the code: https://github.com/machnevegor/cyclepix
 ## Introduction
 In recent years, the field of image-to-image translation has witnessed significant progress, largely driven by the development of generative adversarial networks (GANs).
