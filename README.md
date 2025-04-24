@@ -1,21 +1,32 @@
-# CyclePix
+# Image-to-Image Translation using CycleGAN
 
-Implement and evaluate a CycleGAN model for image-to-image translation using the WikiArt dataset, enabling
-transformation between different artistic styles without paired datasets.
+> Turn real-world photographs into stylized images inspired by **Ivan
+> Aivazovsky** paintings and **Studio Ghibli** movie scenes.
+
+![Showcase](./.github/showcase.jpg)
 
 ## Team
 
 | Name                   | Innomail                          |
-|------------------------|-----------------------------------|
-| Egor Machnev           | e.machnev@innopolis.university    |
+| ---------------------- | --------------------------------- |
 | Apollinaria Chernikova | a.chernikova@innopolis.university |
+| Egor Machnev           | e.machnev@innopolis.university    |
 
-## Project Overview
+## About
 
-Recent advances in Generative Adversarial Networks (GANs) have significantly improved the ability to translate images
-between domains without paired datasets. In this project, we propose implementing CycleGAN for image-to-image
-translation, leveraging the WikiArt dataset from Hugging Face to explore different painting styles. Our goal is to
-develop a model that can convert images from one artistic style to another without needing corresponding image pairs.
-CycleGAN’s cycle-consistency loss ensures that an image translated from domain A to domain B can be mapped back to its
-original form, preserving essential content. This approach is useful in artistic style transfer, domain adaptation, and
-data augmentation.
+In recent years, the field of image-to-image translation has seen remarkable
+advancements, primarily driven by the development of generative adversarial
+networks (GANs). Among the most influential architectures are **CycleGAN** and
+**Pix2Pix**, which have enabled a wide range of applications — from style
+transfer and image synthesis to domain adaptation and photo enhancement.
+
+This project focusing on converting real-world photographs into stylized. To
+evaluate the impact of model architecture on style transfer quality, four
+experiments were conducted: two using Aivazovsky paintings and two using
+Ghibli-style images. Each domain was tested with both a ResNet-based generator
+and a U-Net-based generator. These experiments allow for a comparative analysis
+of how different architectures affect the translation fidelity, texture
+retention, and stylization strength.
+
+Full details of our methodology, findings, and results can be found in the
+[final report](./REPORT.pdf).
